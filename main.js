@@ -77,7 +77,7 @@ function init() {
  */
 function addGeoms(data) {
   data = data.data;
-  Logger.log(data)
+  console.log(data)
   // Need to convert the PapaParse JSON into a GeoJSON
   // Start with an empty GeoJSON of type FeatureCollection
   // All the rows will be inserted into a single GeoJSON
